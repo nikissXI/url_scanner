@@ -185,7 +185,7 @@ async def main():
         "url": url_list,
         "title": title_list,
         "host": host_list,
-        "code": status_code_list,
+        "status_code": status_code_list,
         "addr": addr_list,
         "isp": isp_list,
     }
