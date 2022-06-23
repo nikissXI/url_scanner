@@ -148,6 +148,7 @@ async def main():
         else:
             last_fail_count = len(fail_list)
 
+    # 输出表格
     no_same = []
     host_list = []
     url_list = []
@@ -156,6 +157,7 @@ async def main():
     ip_list = []
     addr_list = []
     isp_list = []
+
     for a, b, c, d, e, f, g in success_list:
         if b not in no_same:
             host_list.append(a)
